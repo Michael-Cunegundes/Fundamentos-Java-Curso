@@ -38,6 +38,12 @@ public class Carro {
         }
     }
 
+    void teste(){
+        if(todasPortasFechadas)){
+            System.out.println("todasPortasFechadas");
+        }
+    }
+
     void frear() {
         if (motor.fatorInjecao > 0.5) {
             motor.fatorInjecao -= 0.4;
